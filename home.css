@@ -1,0 +1,96 @@
+body {
+    background-image: url("https://i.pinimg.com/736x/d4/a2/fc/d4a2fcf4af3f2bd62ba190dbfc6ba332.jpg");
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+a {
+    text-decoration: none;
+    Top:10px;
+}
+header {
+    width:40%;
+    margin:0 auto;
+    padding-left: 650px;
+    margin-top: -72px;
+    margin-right: 5px;
+}
+.logo{
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+h2{
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding-right: 50px;
+}
+h1{
+    font-size:20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 180px;
+    padding-bottom: 10px;
+}
+ul{
+    float: right;
+    color:aliceblue;
+    font-weight: bold;
+}
+li{
+    display: inline-block;
+    padding-right: 15px;
+}
+header ul li a{
+    display: inline-block;
+    font-size: 15px;
+    color:aliceblue;
+    font-weight: bold;
+}
+header ul li a:hover{
+    background-color: rgb(254, 243, 243);
+    color:black;
+}
+.home {
+    text-align: right;
+    margin-right: 12px;
+}
+.table{
+    margin-right: 5px;
+}
+.form{
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-right: -12px;
+}
+.out{
+    font-size: 13px;
+    padding-left: 10px;
+}
+h3{
+    padding-top: 100px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+p{
+    font-family: monospace;
+    text-align: justify;
+    font-size: larger;
+    padding-left: 300px;
+    padding-right: 300px;
+    line-height: 1.5em;
+    background-color: rgb(252, 158, 158);
+}
+.daftar {
+    text-align: justify;
+    font-family: monospace;
+    font-size: medium;
+    background-color: rgb(252, 158, 158);
+    color:black;
+}

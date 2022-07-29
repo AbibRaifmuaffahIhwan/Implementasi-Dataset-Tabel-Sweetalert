@@ -1,0 +1,88 @@
+body{
+    background-image: url("https://i.pinimg.com/736x/d4/a2/fc/d4a2fcf4af3f2bd62ba190dbfc6ba332.jpg");
+    background-size: cover;
+}
+.logo{
+    padding-left: 5px;
+    padding-top: 0px;
+}
+
+h2{
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+h1 {
+    text-align: center;
+    padding-top: 0px;
+}
+.tabel{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 140px;
+    font-size: 11px;
+}
+th {
+    background-color: rgb(254, 89, 89);
+}
+td {
+    background-color: rgb(255, 150, 150);
+    color:aliceblue;
+    font-weight: bold;
+}
+ul{
+    float: right;
+    color:aliceblue;
+    font-weight: bold;
+}
+li{
+    display: inline-block;
+    padding-right: 15px;
+}
+a {
+    text-decoration: none;
+    Top:10px;
+}
+header {
+    width:40%;
+    margin:0 auto;
+    padding-left: 650px;
+    margin-top: -70px;
+    margin-right: -100px;
+    font-size: 20px;
+}
+header ul li a{
+    display: inline-block;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+header ul li a:hover{
+    background-color: rgb(254, 243, 243);
+    color:black;
+}
+.home {
+    text-align: right;
+    margin-right: -5px;
+}
+.tabel{
+    padding-bottom: 300px;
+    margin-left: 50px;
+    padding-left: 5px;
+}
+.table {
+    margin-left: 10px;
+}
+.form{
+    padding-left: 20px;
+    padding-right: 5px;
+}
+.out{
+    font-size: 13px;
+    padding-left: 0px;
+    padding-right: 35px;
+}
+td No {
+    text-align: center;
+}

@@ -1,0 +1,102 @@
+body {
+    background-image: url("https://i.pinimg.com/736x/d4/a2/fc/d4a2fcf4af3f2bd62ba190dbfc6ba332.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+    font-size: larger;
+}
+h1{
+    font-size: 25px;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.logo{
+    padding-left: 5px;
+    padding-top: 0px;
+}
+
+h2{
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+ul{
+    float: right;
+    color:aliceblue;
+    font-weight: bold;
+}
+li{
+    display: inline-block;
+    padding-right: 15px;
+}
+a {
+    text-decoration: none;
+    Top:10px;
+}
+
+header {
+    width:40%;
+    margin:0 auto;
+    padding-left: 650px;
+    margin-top: 5px;
+    margin-right: -50px;
+}
+header ul li a{
+    display: inline-block;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+header ul li a:hover{
+    background-color: rgb(254, 243, 243);
+    color:black;
+}
+.home {
+    text-align: right;
+    margin-left: 25px;
+}
+.out{
+    font-size: 13px;
+    padding-left: 0px;
+    padding-right: 35px;
+    
+}
+.sr {
+    padding-top: 10px;
+    padding-left: 590px;
+}
+.sr :hover{
+    background-color: rgb(249, 119, 119);
+    color:aliceblue;
+    font-weight: bold;
+}
+.formulir{
+    padding-top: 20px;
+    padding-left: 300px;
+    line-height:1em;
+}
+#bioname, #bioemail, #bioalamat, #biotinggi, #bioberat{
+    width: 700px;
+    height: 30px;
+}
+select{
+    text-align: center;
+    width: 700px;
+    height: 25px;
+}
+label{
+    line-height: 7mm;
+}
+.formulir span{
+    bottom: 12px;
+    right: 17px;
+    font-size: 14px;
+    color: red;
+}
+.sb{
+    justify-content: center;
+    align-items: center;
+}
+

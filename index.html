@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Login</title>
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <div class="head">
+        <img src="https://harianriau.co/assets/berita/original/53590403078-ppi.png" weidth="80px" height="80px" align="right">
+    </div>
+    <h1>Purna Paskibraka Indonesia (PPI)<br>
+        Kabupaten Morowali</h1>
+    <form action="home.html" class="box" onSubmit="return validasi_data(this)">
+        <div class="header">
+            <h3>Silahkan Login</h3>
+        </div>
+        <div class="login">
+            Username :  <br>
+            <input tyoe="text" align="center" placeholder="username" name="User" class="username" /> <br>
+            Password : <br>
+            <input type="password" align="center" placeholder="Password" name="psw" class="password" /> <br>
+            <button type="submit" class="submit">Login</button><br>
+            <a href="#"><u>Forgot Password</u></a>
+        </div>
+    </form>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+<script type="text/javascript">
+function validasi_data(form){  
+    var minchar=5;
+    if (form.User.value==""){
+      swal ( "Oops" ,  "Username harus diisi" ,  "error" );
+      form.User.focus();
+      return false;
+    }
+    else if(form.psw.value==""){
+      swal ( "Oops" ,  "Password harus diisi" ,  "error" );
+      form.psw.focus();
+      return false;
+    }
+    else if (form.User.value.length < minchar){
+        swal ( "Oops" ,  "Username minimal 5 karakter" ,  "error" );
+        form.User.focus();
+        return false;
+    }
+}
+  </script>
+</html>
